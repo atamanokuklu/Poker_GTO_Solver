@@ -25,6 +25,13 @@ Casino-grade Texas Hold'em study workspace built with React, Tailwind CSS, and R
 3. Run `npm run dev` for development.
 4. Run `npm run build` for a production build.
 
+## Screenshots
+
+Below are two screenshots from the app:
+
+![GTO Solver](src/resources/screenshots/GTO_Solver.jpg)
+![Range Builder](src/resources/screenshots/Range_Builder.jpg)
+
 ## Notes
 
 - All poker logic runs client-side.
