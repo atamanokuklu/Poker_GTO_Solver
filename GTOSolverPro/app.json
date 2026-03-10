@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "GTO Solver Pro",
+    "slug": "gto-solver-pro",
+    "scheme": "gtosolverpro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#0a0f0d",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0f0d"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#0a0f0d",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.ataman.gtosolverpro",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 36,
+            "targetSdkVersion": 36,
+            "minSdkVersion": 26
+          }
+        }
+      ],
+      "expo-screen-orientation"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
